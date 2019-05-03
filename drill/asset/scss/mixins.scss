@@ -1,0 +1,10 @@
+@mixin bouton {
+    text-decoration: none;
+    color:white;
+    border-style:solid;
+    border-width:10px;
+    padding:20px;
+    display: block;
+    height:30px;
+    width:200px;
+}
