@@ -1,0 +1,19 @@
+body {
+  background-color: #666262;
+}
+
+.menu {
+  background-color: #c5c5c5;
+  width: 150px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.menu p {
+  display: none;
+}
+
+.home .hover p {
+  display: list-item;
+}
+/*# sourceMappingURL=style.css.map */

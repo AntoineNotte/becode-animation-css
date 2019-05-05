@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(102, 98, 98);
+}
+.menu{
+    background-color: rgb(197, 197, 197);
+    width: 150px;
+    display:grid;
+      p{
+          display:none;
+      }
+}
+.home .hover{
+    p{display: list-item}
+}
