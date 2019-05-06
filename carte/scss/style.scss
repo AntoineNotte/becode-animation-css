@@ -1,0 +1,54 @@
+img{
+    width:470px;
+    height:350px;
+    position: absolute;
+}
+.top{
+    border-radius:50%;
+    width:60px;
+    height:60px;
+    background-color: red;
+    position: absolute;
+    right:0%;
+    z-index: 1;
+    margin-top:15px;
+}
+.relate{
+    position: relative;
+    width:430px;
+    height:400px;
+    padding-bottom: Opx;
+    &:hover{
+        > .image{
+            bottom:0px;
+        }
+    }
+}
+.date{
+    text-align:center;
+    
+}
+.picture{
+    background-color: red;
+    position: absolute;
+    top:305px;
+    width:100px;
+    height: 30px;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+
+}
+.hide{
+    opacity:0;
+    width:470px;
+    &:hover{
+        opacity:1;
+    }
+}
+.image{
+    position: absolute;
+    bottom:-250px;
+    background-color: white;
+    opacity:1;
+}
