@@ -30,7 +30,7 @@ section{
         background-color:#ffffff;
         + p{
             opacity: 1;
-            transform: translateX($fontsize);
+            transform: translateX(90px);
             transition-duration: 1s;
         }
     }

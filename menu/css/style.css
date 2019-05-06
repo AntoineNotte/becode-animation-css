@@ -3,7 +3,8 @@ body {
 }
 
 ul {
-  padding: 0;
+  padding: 0; 
+  margin:0;
 }
 
 li {
@@ -27,8 +28,8 @@ section {
   position: fixed;
   pointer-events: none;
   background-color: #a1a1a1;
-  margin-top: 16px;
-  height: 55px;
+  margin-top: 0px;
+  height: 75px;
   width: 150px;
   text-align: center;
 }
@@ -36,11 +37,22 @@ section {
 .content a:hover {
   background-color: #ffffff;
 }
-
+.about:hover{
+  background-color:white;
+}
+.community:hover{
+  background-color: white;
+}
+.home:hover{
+  background-color: white;
+}
+.agenda:hover{
+  background-color: white;
+}
 .content a:hover + p {
   opacity: 1;
-  -webkit-transform: translateX(56px);
-          transform: translateX(56px);
+  -webkit-transform: translateX(70px);
+          transform: translateX(70px);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
